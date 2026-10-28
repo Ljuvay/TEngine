@@ -156,7 +156,7 @@ uint32_t meshSystem::uploadMesh(const std::string& meshName)
 
 	gpuMesh gpu;
 
-	// Buffers and shit
+	// Buffers
 	glGenVertexArrays(1, &gpu.VAO);
 	glBindVertexArray(gpu.VAO);
 

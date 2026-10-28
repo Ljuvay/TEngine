@@ -93,7 +93,7 @@ void ResourceManager::loadMeshGroup()
 
 void ResourceManager::loadParticleGroup()
 {
-	return; // idk if ill need this for awhile
+	return; 
 }
 
 void ResourceManager::loadShaderGroup()
